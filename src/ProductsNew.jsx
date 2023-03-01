@@ -10,16 +10,22 @@ export function ProductsNew(props) {
       <h1>New Product</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          Name <input name="name" type="text" />
+          Name: <input name="name" type="text" />
         </div>
         <div>
-          Price <input name="price" type="text" />
+          Price: <input name="price" type="text" />
         </div>
         <div>
-          Description <input name="description" type="text" />
+          Description: <input name="description" type="text" />
         </div>
         <div>
-          Picture <input name="picture" type="text" />
+          Supplier ID: <input name="supplier_id" type="text" />
+        </div>
+        {/* <div>
+          inventory: <input name="inventory" type="text" />
+        </div>*/}
+        <div>
+          picture: <input name="url" type="text" />
         </div>
         <button type="submit">La Make Product</button>
       </form>
