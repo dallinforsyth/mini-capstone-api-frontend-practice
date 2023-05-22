@@ -39,6 +39,22 @@ export function Content() {
     setCurrentProduct(product);
   };
 
+  // const handleUpdateProduct = (id, params, successCallback) => {
+  //   console.log("handleUpdateProduct", params);
+  //   axios.patch(`http://localhost:3000/products/${id}.json`, params).then((response) => setProducts(
+  //     products.map((product) => {
+  //       if (product.id === response.data.id) {
+  //         return response.data;
+  //       } else {
+  //         return product;
+  //       }
+  //     })
+  //   );
+  //     successCallback();
+  //     handleClose();
+  //   });
+  // };
+
   const handleClose = () => {
     console.log("handleCloseProduct");
     setIsProductsShowVisable(false);
